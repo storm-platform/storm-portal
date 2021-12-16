@@ -2,8 +2,8 @@ name: dockerhub
 
 on:
   push:
-    tags:
-      - v*
+  schedule:
+  - cron: "0 3 * * 6"
 
 jobs:
   build:
