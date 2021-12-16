@@ -1,3 +1,8 @@
+# Copyright (C) 2021 Storm Project.
+#
+# storm-portal is free software; you can redistribute it and/or modify it
+# under the terms of the MIT License; see LICENSE file for more details.
+
 # Example of a full infrastructure stack
 #
 # Note, this file is not suitable for a production deployment. It is only an
