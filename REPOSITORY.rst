@@ -1,30 +1,18 @@
-# Storm Portal
+..
+    Copyright (C) 2021 Storm Project.
 
-Welcome to your InvenioRDM instance.
+    storm-portal is free software; you can redistribute it and/or modify it
+    under the terms of the MIT License; see LICENSE file for more details.
 
-## Getting started
 
-Run the following commands in order to start your new InvenioRDM instance:
+Repository Organization
+=======================
 
-```console
-invenio-cli containerize
-invenio-cli demo --containers
-```
+Overview
+--------
 
-The above commands first builds the application docker image and afterwards
-starts the application and related services (database, Elasticsearch, Redis
-and RabbitMQ). The build and boot process will take some time to complete,
-especially the first time as docker images have to be downloaded during the
-process.
+Following is an overview of the files and folders:
 
-Once running, visit https://127.0.0.1 in your browser.
-
-**Note**: The server is using a self-signed SSL certificate, so your browser
-will issue a warning that you will have to by-pass.
-
-## Overview
-
-Following is an overview of the generated files and folders:
 
 | Name | Description |
 |---|---|
@@ -43,8 +31,3 @@ Following is an overview of the generated files and folders:
 | ``templates`` | Folder for your Jinja templates. |
 | ``.invenio`` | Common file used by Invenio-CLI to be version controlled. |
 | ``.invenio.private`` | Private file used by Invenio-CLI *not* to be version controlled. |
-
-## Documentation
-
-To learn how to configure, customize, deploy and much more, visit
-the [InvenioRDM Documentation](https://inveniordm.docs.cern.ch/).
