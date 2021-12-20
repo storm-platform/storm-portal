@@ -1,0 +1,47 @@
+{#
+  Copyright (C) 2019-2020 CERN.
+  Copyright (C) 2019-2020 Northwestern University.
+  Copyright (C) 2021 New York University.
+
+  Invenio App RDM is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+{%- extends "invenio_theme/frontpage.html" %}
+
+{%- block page_header %}
+{%- include "invenio_app_rdm/header_frontpage.html" %}
+{%- endblock page_header %}
+
+{%- block page_body %}
+{%- block first_section%}
+<main class="section-content-white-bg">
+  <div class="ui container">
+      <div class="ui padded relaxed centered grid">
+          <div class="portal-project-goals">
+              <div class="portal-goal">
+                  <div class="column">
+                      <i class="flask huge icon"></i>
+                      <h3>Open Science</h3>
+                      <p>We support the best practices of the Open Science.</p>
+                  </div>
+              </div>
+              <div class="portal-goal">
+                  <div class="column">
+                      <i class="undo huge icon"></i>
+                      <h3>Open Reproducible Research</h3>
+                      <p>Find fully reproducible research.</p>
+                  </div>
+              </div>
+              <div class="portal-goal">
+                  <div class="column">
+                      <i class="users huge icon"></i>
+                      <h3>Open Source</h3>
+                      <p>Storm Portal is Open Source. You can join us on <a href="https://discord.com/channels/689541907621085198#" target="_blank">Discord</a> now.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</main>
+{%- endblock first_section%}
+{%- endblock page_body%}
