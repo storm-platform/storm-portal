@@ -27,3 +27,8 @@
     margin-bottom: 5rem;
     text-align: center;
 }
+
+.section-content-white-bg {
+    .section-content-white-bg;
+    margin-top: 3rem;
+}
