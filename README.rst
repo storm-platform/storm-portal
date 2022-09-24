@@ -9,8 +9,8 @@ Storm Portal
 ============
 
 
-.. image:: https://img.shields.io/github/license/storm-platform/storm-ws.svg
-        :target: https://github.com/storm-platform/storm-ws/blob/master/LICENSE
+.. image:: https://img.shields.io/github/license/storm-platform/storm-portal.svg
+        :target: https://github.com/storm-platform/storm-portal/blob/master/LICENSE
         :alt: Software License
 
 
@@ -19,13 +19,13 @@ Storm Portal
         :alt: Software Life Cycle
 
 
-.. image:: https://img.shields.io/github/workflow/status/storm-platform/storm-ws/build
-        :target: https://github.com/storm-platform/storm-ws/actions/workflows/build.yml
+.. image:: https://img.shields.io/github/workflow/status/storm-platform/storm-portal/build
+        :target: https://github.com/storm-platform/storm-portal/actions/workflows/build.yml
         :alt: Build Status
 
 
-.. image:: https://img.shields.io/github/tag/storm-platform/storm-ws.svg
-        :target: https://github.com/storm-platform/storm-ws/releases
+.. image:: https://img.shields.io/github/tag/storm-platform/storm-portal.svg
+        :target: https://github.com/storm-platform/storm-portal/releases
         :alt: Release
 
 
